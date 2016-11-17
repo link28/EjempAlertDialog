@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorRosa"
+    tools:context="com.example.karel.ejempalertdialog.MainActivity">
+
+    <TextView
+        android:id="@+id/txtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRosa"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamañoLetra"
+        android:text="DialogBox " />
+    <Button
+        android:id="@+id/btn_alert_dialog1"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorNegro"
+        android:text="Alert Dialog Box"
+        android:layout_below="@+id/txtMsg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+    <Button
+        android:id="@+id/btn_custom_dialog"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorNegro"
+        android:text="Custom Dialog Box"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/btn_alert_dialog2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/btn_alert_dialog2"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorNegro"
+        android:text="Alert Dialog Fragment"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/btn_alert_dialog1"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNegro"
+    android:padding="5dp"
+    android:weightSum="1">
+
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="0.08" />
+
+    <TextView
+        android:id="@+id/sd_textView1"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlanco"
+        android:textSize="@dimen/tamañoLetra"
+        android:text="TextView"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:textColor="@color/colorBlanco"
+        android:id="@+id/sd_editText1"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="15"
+        android:textColorHint="@color/colorBlanco"
+        android:hint="Enter some data here..." >
+        <requestFocus />
+        </EditText>
+    <Button
+        android:id="@+id/sd_btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Close" />
+
+
+
+</LinearLayout>
